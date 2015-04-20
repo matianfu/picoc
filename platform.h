@@ -13,6 +13,7 @@
  */
 
 #define UNIX_HOST
+// #define BUILTIN_MINI_STDLIB
 
 #define LARGE_INT_POWER_OF_TEN 1000000000   /* the largest power of ten which fits in an int on this architecture */
 #if defined(__hppa__) || defined(__sparc__)
@@ -51,7 +52,7 @@
 # ifndef NO_FP
 #  include <math.h>
 #  define PICOC_MATH_LIBRARY
-#  define USE_READLINE
+// #  define USE_READLINE
 #  undef BIG_ENDIAN
 #  if defined(__powerpc__) || defined(__hppa__) || defined(__sparc__)
 #   define BIG_ENDIAN
