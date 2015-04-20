@@ -9,6 +9,8 @@
 
 
 /* handy definitions */
+#undef TRUE
+#undef FALSE
 #ifndef TRUE
 #define TRUE 1
 #define FALSE 0
